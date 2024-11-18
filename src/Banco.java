@@ -1,12 +1,11 @@
 public class Banco {
     protected double saldo;
 
-    public Banco(double saldo){
-        this.saldo = saldo;
+    public Banco(double saldoInicial) {
+        this.saldo = saldoInicial;
     }
 
-    public void mostrarSaldo(){
-        System.out.println("Saldo = " + saldo);
+    public double obtenerSaldo() {
+        return saldo;
     }
-
 }

@@ -1,21 +1,32 @@
 package PruebaVehiculoMoto;
 
+import Vehiculos.Moto;
+import Vehiculos.Vehiculo;
+
 public class PruebaVehiculoMoto {
     public static void main(String[] args) {
 
+
         // se crea un objeto moto
-     Moto moto1 = new Moto("Yamaha", "R7", 689);
 
-        System.out.println("información de la Moto = ");
-        System.out.println();
-        moto1.mostrarMoto();
 
-        System.out.println();
+        Moto moto1 = new Moto("Deportiva", "Yamaha", 689);
 
-        Vehiculo vehiculo = new Vehiculo("Hyundai", "Genesis");
+        // se crea un objeto Vehiculo
 
-        System.out.println(vehiculo.marca);
-        System.out.println(vehiculo.modelo);
+        Vehiculo vehiculo = new Vehiculo("Carro", "Hyundai");
+
+        //forma correcta de acceder
+        System.out.println("Tipo = " + moto1.getTipo());
+        System.out.println("Marca = " + moto1.getMarca());
+        System.out.println("Cilindrada = " + moto1.getCilindrada());
+
+        //forma incorrecta de acceder
+        System.out.println("Marca del vehiculo = " + vehiculo.getMarca());
+        System.out.println("Tipo de vehiculo = " + vehiculo.getTipo());
 
     }
 }
+
+
+
