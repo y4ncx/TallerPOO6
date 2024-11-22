@@ -1,4 +1,4 @@
-package Vehiculos;
+package Ejercicio2.Vehiculos;
 
 public class Vehiculo {
     protected String tipo;

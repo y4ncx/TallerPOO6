@@ -1,7 +1,7 @@
-package PruebaVehiculoMoto;
+package Ejercicio2.PruebaVehiculoMoto;
 
-import Vehiculos.Moto;
-import Vehiculos.Vehiculo;
+import Ejercicio2.Vehiculos.Moto;
+import Ejercicio2.Vehiculos.Vehiculo;
 
 public class PruebaVehiculoMoto {
     public static void main(String[] args) {

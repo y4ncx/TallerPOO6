@@ -1,5 +1,5 @@
 
-package Vehiculos;
+package Ejercicio2.Vehiculos;
 
 public class Moto extends Vehiculo {
     protected int cilindrada;

@@ -1,4 +1,6 @@
-public class Gerente extends  Empleado{
+package Ejercicio1;
+
+public class Gerente extends Empleado {
     protected String departamento;
 
     // le metemos constructor

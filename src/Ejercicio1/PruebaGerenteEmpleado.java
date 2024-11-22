@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 public class PruebaGerenteEmpleado {
     public static void main(String[] args) {
         Empleado empleado = new Empleado("Carlos", 2500000);
